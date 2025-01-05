@@ -121,7 +121,7 @@ Cell voltage is a good indicator of battery health. Plug in the [low voltage mon
 
 # Storage
 
-Here is a general list of steps for storing batteries.
+Here is a general list of steps for storing batteries. For more information, check battery manufacturer's manual.
 
 1. [Inspect.](#battery-inspection)
 2. Store in a battery-safe bag.
