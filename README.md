@@ -85,10 +85,39 @@ Low voltage monitors are provided to make sure that the battery cell voltages do
 > [!CAUTION]
 > The battery will also power the Pi on through Raven board and conflicts with the USB-C power adapter. **DO NOT USE THE USB-C POWER ADAPTER WITH THE PI WHILE THE BATTERY IS PLUGGED IN** -->
 
-# Battery checklist
-MIT EHS provides an general checklist for using Lithium batteries. 
+# Battery inspection
+
+Lipo batteries can be physically damaged (puncture, bend, etc) or electrically damaged (overcharged, overdischarged, overcurrent). Our battery comes in hard plastic shell to prevent physical damage, and we do everything we can to prevent electrical damage. However, accidents can happen and we need to know how to check for damages.
+
+## Physical inspection
+
+### Swollen battery
+Badly damaged LiPo battery will swell. Check for signs of battery swelling. For reference, the left battery is a normal battery and the right battery is damaged.
 
 <p align="center">
-<embed src="files/Lithium_Battery_Checklist.pdf"
- type="application/pdf">
+<img src="image/lipo_swollen.jpg" width="75%" />
 </p>
+
+> [!TIP]
+> Even though our battery has a hard plastic casing, a swelling battery may cause the shell to warp and no longer sits flat on the table.
+
+> [!CAUTION]
+> Swollen battery is extremely dangerous and may burst into flame at anytime! Please inform a MASLAB staff immediately for proper disposal once there is any sign of swelling.
+
+### Leads
+The batteries may be subjected to many rounds of plug-unplugs, scraping, electrical problems, etc. These may cause damages to the insulation and the connectors. Please check the wires for any sign of burns, and exposed conductors. Here is some refence for exposed wire and damaged connector:
+
+<p align="center">
+<img src="image/wire_damage.jpg" width="75%" />
+</p>
+
+<p align="center">
+<img src="image/xt60_damage.jpg" width="75%" />
+</p>
+
+## Electrical inspection
+
+Cell voltage is a good indicator of battery health. Plug in the [low voltage monitor](#low-voltage-monitor) to check for cell voltages. The cell voltages should read **between 3.3V and 4.2V** for a healthy LiPo battery.
+
+# Additional resources
+MIT EHS provides a general checklist for using Lithium batteries. Feel free to print them out for references. They can be downloaded here: https://ehs.mit.edu/wp-content/uploads/2019/09/Lithium_Battery_Checklist.pdf
