@@ -89,6 +89,6 @@ Low voltage monitors are provided to make sure that the battery cell voltages do
 MIT EHS provides an general checklist for using Lithium batteries. 
 
 <p align="center">
-<embed src="https://ehs.mit.edu/wp-content/uploads/2019/09/Lithium_Battery_Checklist.pdf" width="500" height="375" 
+<embed src="files/Lithium_Battery_Checklist.pdf"
  type="application/pdf">
 </p>
