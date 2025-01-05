@@ -19,14 +19,14 @@ The battery system is packages with several components for safe battery usage. H
 </center>
 
 ## LiPo battery
-The LiPo battery for the Pi is a LiPo battery with 3 cells connected in series (3S battery) with 5200mAh. This should keeps the robot fully **running for ~2 hours**, or **idling for ~6 hours**. The battery has an XT60 connector for power output and a JST-XH balancing lead for monitoring individual cells.  
+The LiPo battery for the Pi is a LiPo battery with 3 cells connected in series (3S battery) with 5200mAh. This should keeps the robot fully **running for ~2 hours**, or **idling for ~6 hours**. The battery has an XT60 connector for power output and a JST-XH balancing lead for monitoring individual cells. Read the manufacturer's manual for more information.
 
 <p align="center">
 <img src="image/battery.jpg" width="50%" />
 </p>
 
 ## LiPo charger
-The charger included is a LiPo balancing lead charger. It charges and monitor individual battery cell's voltage through the balancing lead to make sure no cell exceeds the rated voltage of LiPo battery (4.2V). The charger is designed to charge at up to 2000mA per cell and supports 2 or 3 cells battery. It does **NOT** support charging **2 batteries at the same time**.
+The charger included is a LiPo balancing lead charger. It charges and monitor individual battery cell's voltage through the balancing lead to make sure no cell exceeds the rated voltage of LiPo battery (4.2V). The charger is designed to charge at up to 2000mA per cell and supports 2 or 3 cells battery. It does **NOT** support charging **2 batteries at the same time**. Read the manufacturer's manual for more information.
 
 <p align="center">
 <img src="image/charger.jpg" width="50%" />
@@ -118,6 +118,20 @@ The batteries may be subjected to many rounds of plug-unplugs, scraping, electri
 ## Electrical inspection
 
 Cell voltage is a good indicator of battery health. Plug in the [low voltage monitor](#low-voltage-monitor) to check for cell voltages. The cell voltages should read **between 3.3V and 4.2V** for a healthy LiPo battery.
+
+# Storage
+
+Here is a general list of steps for storing batteries.
+
+1. [Inspect.](#battery-inspection)
+2. Store in a battery-safe bag.
+3. Place the bag in a dry area at room temperature and away from flammable objects.
+
+> [!IMPORTANT]
+> LiPo battery performance degrades when left at fully charged or fully depleted for too long. For storing LiPo battery over long period of time (longer than a week), make sure the cell voltages are around 3.8V. Read the battery manufacturer's safety notes for more information.
+
+> [!TIP]
+> With degrading performance at higher voltage, it is recommended to **NOT** charge the battery if you do not plan to use it immediately after. Exception to this is when the battery voltage is too low.
 
 # Additional resources
 MIT EHS provides a general checklist for using Lithium batteries. Feel free to print them out for references. They can be downloaded here: https://ehs.mit.edu/wp-content/uploads/2019/09/Lithium_Battery_Checklist.pdf
