@@ -32,13 +32,6 @@ The charger included is a LiPo balancing lead charger. It charges and monitor in
 <img src="image/charger.jpg" width="50%" />
 </p>
 
-<!-- > [!CAUTION]
-> This LiPo charger is simple. Too simple for charging EVERY kind of battery. It can destroy the batteries, itself, and burn down your place if misused. Therefore, here is a list of DO-NOTs:
-> 1. Do not use it for any battery that is not LiPo. 
-> 2. Do not use it to charge two batteries at the same time.
-> 3. Do not use it to charge battery with lower than 2000mAh.
-> 4. Do not leave it unattended while charging. -->
-
 ## LiPo safety bag
 Two fireproof bags are provided for storing the batteries while not in use.
 
@@ -63,18 +56,9 @@ In case the robot becomes sentient and goes on a rampage, something is burning, 
 ## Low voltage monitor
 Low voltage monitors are provided to make sure that the battery cell voltages do not fall below a safety threshold (3.3V) during use. They continuously monitor the voltages through the safety leads and let out a loud a buzz whenever any cell reaches the safety threshold.
 
-<!-- > [!IMPORTANT]  
-> Please have the low voltage monitor connected to the battery balancing lead **as long as the battery is in use**. When not in use, feel free to remove the monitor and store the battery in the battery safe bag. -->
-
 <p align="center">
 <img src="image/voltage_monitor.png" width="50%" />
 </p>
-
-<!-- > [!IMPORTANT]  
-> The low voltage monitor is polarized. Please be careful when installing the balancing lead. The black wire should be connected to the first pin (BBX end) as shown in the previous picture. Below is a reference from older generation of the product.
-> <p align="center">
-> <img src="image/voltage_monitor_connection.png" width="50%" />
-> </p> -->
 
 <!-- ## Full battery connection diagram
 
@@ -85,7 +69,7 @@ Low voltage monitors are provided to make sure that the battery cell voltages do
 > [!CAUTION]
 > The battery will also power the Pi on through Raven board and conflicts with the USB-C power adapter. **DO NOT USE THE USB-C POWER ADAPTER WITH THE PI WHILE THE BATTERY IS PLUGGED IN** -->
 
-# Battery inspection
+# Inspection
 
 Lipo batteries can be physically damaged (puncture, bend, etc) or electrically damaged (overcharged, overdischarged, overcurrent). Our battery comes in hard plastic shell to prevent physical damage, and we do everything we can to prevent electrical damage. However, accidents can happen and we need to know how to check for damages.
 
@@ -123,7 +107,7 @@ Cell voltage is a good indicator of battery health. Plug in the [low voltage mon
 
 Here is a general list of steps for storing batteries. For more information, check battery manufacturer's manual.
 
-1. [Inspect.](#battery-inspection)
+1. [Inspect.](#inspection)
 2. Store in a battery-safe bag.
 3. Place the bag in a dry area at room temperature and away from flammable objects.
 
@@ -132,6 +116,48 @@ Here is a general list of steps for storing batteries. For more information, che
 
 > [!TIP]
 > With degrading performance at higher voltage, it is recommended to **NOT** charge the battery if you do not plan to use it immediately after. Exception to this is when the battery voltage is too low.
+
+# Charge
+
+Here is a general list of steps for charging the batteries. For more information, check the charger manufacturer's manual.
+
+1. [Inspect.](#inspection)
+2. Plug the charger into the wall outlet.
+3. Plug the battery balancing lead into `3 CELL` slot of the charger. The plug only goes in one way (see picture).
+4. Wait for the charger LED to turn from red 🔴 to blue 🔵. 
+5. **Do not leave the battery unattended while charging. Any battery charging without a team member nearby will be confiscated.** 
+
+<p align="center">
+<img src="image/charger_connect.jpg" width="75%" />
+</p>
+
+> [!CAUTION]
+> This LiPo charger is simple. Too simple for charging EVERY kind of battery. It can destroy the batteries, itself, and burn down your place if misused. Therefore, here is a list of DO-NOTs:
+> 1. Do not use it for any battery that is not LiPo. 
+> 2. Do not use it to charge two batteries at the same time.
+> 3. Do not use it to charge battery with lower than 2000mAh.
+> 4. Do not leave it unattended while charging.
+
+# Use
+
+Again, [inspect](#inspection) the battery before use. Then make sure to use the following components.
+
+## Low voltage monitor
+Please have the low voltage monitor connected to the battery balancing lead **as long as the battery is in use**. When not in use, feel free to remove the monitor and store the battery in the battery safe bag.
+
+> The low voltage monitor is polarized. Please be careful when installing the balancing lead. The black wire should be connected to the first pin (BBX end) as shown in the previous picture. Below is a reference from older generation of the product.
+> <p align="center">
+> <img src="image/voltage_monitor_connection.png" width="50%" />
+> </p>
+
+> [!TIP]
+> Feel free to tape a low voltage monitor to each battery so you will remember to plug it in during use.
+
+## Fused and switch cables
+Please connect the battery only to a fused and switch cables. **DO NOT CONNECT THE BATTERY DIRECTLY TO THE RAVEN BOARD**. The order of these cables does not matter.
+
+> [!TIP]
+> You can have these cables attached to your robot. Highly recommend designing a cut-out on your robot to nicely insert the switch.
 
 # Additional resources
 MIT EHS provides a general checklist for using Lithium batteries. Feel free to print them out for references. They can be downloaded here: https://ehs.mit.edu/wp-content/uploads/2019/09/Lithium_Battery_Checklist.pdf
