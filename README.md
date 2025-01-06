@@ -60,12 +60,6 @@ Low voltage monitors are provided to make sure that the battery cell voltages do
 <img src="image/voltage_monitor.png" width="50%" />
 </p>
 
-> [!IMPORTANT]
-> The low voltage monitor is polarized. Please be careful when installing the balancing lead. The black wire should be connected to the first pin (BBX end) as shown in the previous picture. Below is a reference from older generation of the product.
-> <p align="center">
-> <img src="image/voltage_monitor_connection.png" width="50%" />
-> </p>
-
 <!-- ## Full battery connection diagram
 
 <p align="center">
@@ -106,8 +100,13 @@ The batteries may be subjected to many rounds of plug-unplugs, scraping, electri
 </p>
 
 ## Electrical inspection
-
 Cell voltage is a good indicator of battery health. Plug in the [low voltage monitor](#low-voltage-monitor) to check for cell voltages. The cell voltages should read **between 3.3V and 4.2V** for a healthy LiPo battery.
+
+> [!IMPORTANT]
+> The low voltage monitor is polarized. Please be careful when installing the balancing lead. The black wire should be connected to the first pin (BBX end) as shown in the previous picture. Below is a reference from older generation of the product.
+> <p align="center">
+> <img src="image/voltage_monitor_connection.png" width="50%" />
+> </p>
 
 # Storage
 
