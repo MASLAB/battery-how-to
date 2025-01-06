@@ -60,15 +60,6 @@ Low voltage monitors are provided to make sure that the battery cell voltages do
 <img src="image/voltage_monitor.png" width="50%" />
 </p>
 
-<!-- ## Full battery connection diagram
-
-<p align="center">
-<img src="image/battery_diagram.png" width="100%" />
-</p>
-
-> [!CAUTION]
-> The battery will also power the Pi on through Raven board and conflicts with the USB-C power adapter. **DO NOT USE THE USB-C POWER ADAPTER WITH THE PI WHILE THE BATTERY IS PLUGGED IN** -->
-
 # Inspection
 
 Lipo batteries can be physically damaged (puncture, bend, etc) or electrically damaged (overcharged, overdischarged, overcurrent). Our battery comes in hard plastic shell to prevent physical damage, and we do everything we can to prevent electrical damage. However, accidents can happen and we need to know how to check for damages.
@@ -144,7 +135,6 @@ Here is a general list of steps for charging the batteries. For more information
 > 4. Do not leave it unattended while charging.
 
 # Use
-
 Again, [inspect](#inspection) the battery before use. Then make sure to use the following components.
 
 ## Low voltage monitor
@@ -158,6 +148,17 @@ Please connect the battery only to a fused and switch cables. **DO NOT CONNECT T
 
 > [!TIP]
 > You can have these cables attached to your robot. Highly recommend designing a cut-out on your robot to nicely insert the switch.
+
+## Full battery connection diagram
+
+<p align="center">
+<img src="image/battery_diagram.png" width="100%" />
+</p>
+
+> [!CAUTION]
+> The battery will also power the Pi on through Raven board and conflicts with the USB-C power adapter.  
+> **_DO NOT USE THE USB-C POWER ADAPTER WHILE THE BATTERY IS PLUGGED IN!_**  
+> **_DO NOT PLUG IN THE BATTERY WHILE USING USB-C POWER ADAPTER!_**
 
 # Additional resources
 MIT EHS provides a general checklist for using Lithium batteries. Feel free to print them out for references. They can be downloaded here: https://ehs.mit.edu/wp-content/uploads/2019/09/Lithium_Battery_Checklist.pdf
