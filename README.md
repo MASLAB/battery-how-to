@@ -60,6 +60,12 @@ Low voltage monitors are provided to make sure that the battery cell voltages do
 <img src="image/voltage_monitor.png" width="50%" />
 </p>
 
+> [!IMPORTANT]
+> The low voltage monitor is polarized. Please be careful when installing the balancing lead. The black wire should be connected to the first pin (BBX end) as shown in the previous picture. Below is a reference from older generation of the product.
+> <p align="center">
+> <img src="image/voltage_monitor_connection.png" width="50%" />
+> </p>
+
 <!-- ## Full battery connection diagram
 
 <p align="center">
@@ -144,11 +150,6 @@ Again, [inspect](#inspection) the battery before use. Then make sure to use the 
 
 ## Low voltage monitor
 Please have the low voltage monitor connected to the battery balancing lead **as long as the battery is in use**. When not in use, feel free to remove the monitor and store the battery in the battery safe bag.
-
-> The low voltage monitor is polarized. Please be careful when installing the balancing lead. The black wire should be connected to the first pin (BBX end) as shown in the previous picture. Below is a reference from older generation of the product.
-> <p align="center">
-> <img src="image/voltage_monitor_connection.png" width="50%" />
-> </p>
 
 > [!TIP]
 > Feel free to tape a low voltage monitor to each battery so you will remember to plug it in during use.
